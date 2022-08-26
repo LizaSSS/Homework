@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap" rel="stylesheet');
+
+html,
+body {
+    height: 100%;
+}
+
+
+
+h1 {
+    color:rgb(132, 100, 139);
+    text-align: center;
+    font-size: 3rem;
+    flex: 1 0 auto;
+    justify-content: center;
+    font-family: 'Noto Serif JP', serif;
+}
+
+h2 {
+    text-align: center;
+    color: #121013;
+    justify-content: center;
+    font-family: 'Noto Serif JP', serif;
+}
+
+.flex-container {
+    padding: 4px;
+    align-items: left;
+    background-color: rgb(132, 100, 139);
+    background: url(img/back.jpg);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 25%;
+    margin-bottom: 3em;
+    background-color: rgb(128, 108, 133);
+}
+
+ul  {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: none;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1.5rem;
+    color: #d5aedd;
+    font-weight: 800;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+}
+
+.myImg {
+    margin-top: 20px;
+    padding-left: 20px;
+    flex-basis: 20px;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+}
+
+
+.fullname {
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+    margin-right: 20px;
+    flex-basis: auto;
+    font-size: 2rem;
+}
+
+.knowledge {
+    display: flex;   
+    justify-content: center;
+    padding-left: 20px;  
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+    font-size: 1.5rem;
+    color: #7f6ab4;
+}
+
+.article {
+    margin-top: 2em;   
+    font-size: 1.5rem;
+    width: 1000px;
+}
+
+
+p {
+    color: #8677ac;
+    font-size: 1.5rem;
+    padding-left: 30px;
+    flex: 1 0 auto;
+}
+
+.text {
+    font-size: 1.5rem;
+    color: #b68ccf;
+    flex-direction: column;
+}
+
+
+.footer {
+    background-color: #a37ea3;
+    position: relative;
+    flex: 0 0 auto;
+}
